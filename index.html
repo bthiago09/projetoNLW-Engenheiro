@@ -2,16 +2,11 @@
 <!-- Aqui é a raíz-->
 <html lang="pt_BR">
   <head>
-    <!-- PAGE INFO -->
     <meta charset="UTF-8" />
-    <!-- Algns navegadores sem essa opção, pode deixar desconfigurado--->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Aqui é a largua e altura do dispositivo, ele fica flexível para cada dispositivo -->
 
-    <!-- STYLES-->
     <title>Ranylson | Engenheiro Civil</title>
-    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,12 +16,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <!-- AQUI É ONDE A MÁGICA ACONTECE DE FATO-->
   <body>
-    <header id="header1">
-      <nav class="container">
+    <header id="header">
+      <nav class="container show">
         <a class="logo" href="#">Ranylson <span>Machado</span></a>
-        <div class="menu">menu</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="open">...</div>
+        <div class="close">x</div>
       </nav>
     </header>
 
@@ -40,7 +44,7 @@
             />
           </div>
           <div class="text">
-            <h1>Engenheiro Civil certificado pelo CREA</h1>
+            <h2 class="title">Engenheiro Civil certificado pelo CREA</h2>
             <p>
               Engenheiro especializado em concreto armado, projeto estrutural e
               blá blá blá.
@@ -52,8 +56,12 @@
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container">outra section</div>
+      <section class="section" id="about">
+        <div class="container grid">Sobre</div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container grid">Serviços</div>
       </section>
     </main>
   </body>
