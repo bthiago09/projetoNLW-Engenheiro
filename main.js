@@ -30,3 +30,5 @@ window.addEventListener('scroll', function () {
     header.classList.remove('scroll')
   }
 })
+
+/* testimonials carousel slider swiper */
