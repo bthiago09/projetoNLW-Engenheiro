@@ -10,6 +10,12 @@
     <!-- ICONES -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -20,8 +26,6 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Swiper -->
   </head>
   <body>
     <header class="" id="header">
@@ -149,60 +153,94 @@
 
       <!-- TESTIMONIALS -->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos</h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span> Lorem ipsum dolor sit, amet consectetur
-                  adipisicing elit. Quidem amet sequi illo earum eius aspernatur
-                  quia quibusdam quaerat, dolorem minima.
-                </p>
-                <cite>
-                  <img src="/assets/testemonials/dipper.jpg" alt="dipper" />
-                  Fulano de Tal
-                </cite>
-              </blockquote>
-            </div>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quidem amet sequi illo earum eius
+                    aspernatur quia quibusdam quaerat, dolorem minima.
+                  </p>
+                  <cite>
+                    <img src="/assets/testemonials/dipper.jpg" alt="dipper" />
+                    Fulano de Tal
+                  </cite>
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span> Lorem ipsum dolor sit, amet consectetur
-                  adipisicing elit. Quidem amet sequi illo earum eius aspernatur
-                  quia quibusdam quaerat, dolorem minima.
-                </p>
-                <cite>
-                  <img src="/assets/testemonials/stitch.jpg" alt="stitch" />
-                  Sicrano de Tal
-                </cite>
-              </blockquote>
-            </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quidem amet sequi illo earum eius
+                    aspernatur quia quibusdam quaerat, dolorem minima.
+                  </p>
+                  <cite>
+                    <img src="/assets/testemonials/stitch.jpg" alt="stitch" />
+                    Sicrano de Tal
+                  </cite>
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span> Lorem ipsum dolor sit, amet consectetur
-                  adipisicing elit. Quidem amet sequi illo earum eius aspernatur
-                  quia quibusdam quaerat, dolorem minima.
-                </p>
-                <cite>
-                  <img src="/assets/testemonials/draw.jpg" alt="draw" />
-                  Fulaninho de Sicrano
-                </cite>
-              </blockquote>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quidem amet sequi illo earum eius
+                    aspernatur quia quibusdam quaerat, dolorem minima.
+                  </p>
+                  <cite>
+                    <img src="/assets/testemonials/draw.jpg" alt="draw" />
+                    Fulaninho de Sicrano
+                  </cite>
+                </blockquote>
+              </div>
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
 
-      <!-- CONTACT -->
-    </main>
+      <div class="divider-2"></div>
 
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato comigo!</h2>
+            <p>
+              Entre em contato com o engenheiro Ranylson para tirar dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=558799447407&text=Ol%C3%A1"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"> Entrar em contato</i></a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> (87) 99944-7407</li>
+              <li><i class="icon-map-pin"></i> R. Num sei oq, 343</li>
+              <li><i class="icon-mail"></i> contato@engranylson.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- main.js -->
     <script src="main.js"></script>
