@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?r8gseg');
-  src:  url('fonts/icomoon.eot?r8gseg#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?r8gseg') format('truetype'),
-    url('fonts/icomoon.woff?r8gseg') format('woff'),
-    url('fonts/icomoon.svg?r8gseg#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2wxacy');
+  src:  url('fonts/icomoon.eot?2wxacy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2wxacy') format('truetype'),
+    url('fonts/icomoon.woff?2wxacy') format('woff'),
+    url('fonts/icomoon.svg?2wxacy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-up:before {
+  content: "\e90c";
+}
 .icon-building-construction-1:before {
   content: "\e900";
 }
