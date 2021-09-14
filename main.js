@@ -88,7 +88,7 @@ function activateMenuAtCurrentSection() {
     const sectionId = section.getAttribute('id')
 
     const checkpointStart = checkpoint >= sectionTop
-    const checkpointEnd = chechpoint <= sectionTop + sectionHeight
+    const checkpointEnd = checkpoint <= sectionTop + sectionHeight
 
     if (checkpointStart && checkpointEnd) {
       document
